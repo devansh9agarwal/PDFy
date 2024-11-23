@@ -1,0 +1,116 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;  /* Light grayish-blue background */
+    margin: 25;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; 
+
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+/* Styling for links that act like buttons */
+a.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: #007bff;  /* Blue background */
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+}
+
+/* Styling for list items (metadata display) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul li strong {
+    color: #007bff;
+}
+
+/* General padding and layout for content */
+.section {
+    padding: 30px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Padding for form elements */
+form input, form select, form button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff; /* Blue color */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth color change on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Set spacing between form elements */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
